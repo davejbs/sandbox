@@ -1,0 +1,50 @@
+  nav{height: 4rem; 
+            max-width: 55%; 
+            margin: 0% auto;
+            border:2px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+        ul{padding: 0; margin: 0;}
+        #logo > img{height: 4rem; width: 5rem;}
+        .actions-item {display: flex; gap: 1rem;}
+        #contact-me-item{margin: 0 1rem;}
+        a{text-decoration: none; color: white;}
+        li {list-style: none;}
+        body{background-color: #004170;
+        font-family: "Changa One", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        }
+
+        .hero{
+            width: 90%;
+            height: 40rem;
+            margin: 2rem auto;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.foot-africa.com/20251223/86437aa8f0119064804ff53e2c6a4f07989b058db0fd86d3d55354bb95820895-1200-675.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        .hero-titles{
+            align-self: center;
+            color: white;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            gap: 12px;
+        }
+        .hero-titles > h1 {
+            font-size: 100px;
+        }
+        .hero-titles > h2 {
+            text-align: center;
+        }
+        .hero-subtitles {
+            color: white;
+            padding: 0 15rem;
+            text-align: center;
+            font-weight: bolder;
+        }
